@@ -1,0 +1,14 @@
+//pre processing, compiling, assembling, linking
+// now all its just compiling
+ // different cpus need different compilers i.e. android vs ios for the same C code
+ // at a deeper level you can decompile a program and thats reverse engineering
+ //  
+----------
+// bool 1 byte
+// int 4 bytes
+// long 8 bytees
+// float 4 bytes
+// double 8 bytes
+// chat 1 byte
+// string ? bytes
+-----------
