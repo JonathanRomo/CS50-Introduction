@@ -1,0 +1,21 @@
+machine code -> globals -> heap -> stack
+stack grows bottom to top
+
+the memory can overflow
+
+heap overflow
+stack overflow
+buffer overflow
+
+FILE I/O
+allows to store and delete files
+    fopen
+    fclose
+    fprintf
+    fscanf
+    fread
+    fwrite
+    fseek
+    ...
+
+BUFFERING
