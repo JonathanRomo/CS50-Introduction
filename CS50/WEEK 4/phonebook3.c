@@ -1,0 +1,20 @@
+#include<cs50.h>
+#include<stdio.h>
+#include<string.h>
+
+//now keeps the previous values
+int main (void)
+{
+    FILE *file = fopen("phonebook.csv", "a");
+    IF (file == NULL)
+    {
+        return 1;
+    }
+
+    char *name = get_string("Name: ");
+    char *number = get_string("Number: ");
+
+    fprintf(file,"%s,%s\n", name, number);
+
+    fclose(file);
+}
