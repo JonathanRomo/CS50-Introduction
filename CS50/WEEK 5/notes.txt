@@ -1,0 +1,53 @@
+abstract data types
+    queues
+    FIFO, first in- first out
+    inqueue
+    outqueue
+
+    stacks
+    LIFO last in - first out
+    push
+    pop
+
+    dictionaries
+
+data structures
+    struct
+    .
+    *
+    ->
+
+    Linked lists
+    Node
+    data
+    metadata
+    O(n) insertion time
+    search time O(n)
+    delete time O(n)
+    running time O(n)
+
+    Trees
+    binary search Trees
+    O(log n) - Binary search
+    Its always halving the structure
+    Uses 3 times more memory than an array
+    2 pointers instead of 1
+    Its recursive in nature
+    A poor programmed tree can turn into a linked list
+
+    Hashing
+    Hash function
+    Pre assings a place to store the data
+    Example the Alphabet and a phonebook
+        You can have 26 buckets for letters for the fastest response time
+    Hash tables
+        Keys and values
+        Creates an array of linked lists
+    Takes O(n/k)
+
+    Tries
+    Trees formed by arrays
+    O(1)
+    Its not very used in practice
+    Uses huge amount of memory
+    
