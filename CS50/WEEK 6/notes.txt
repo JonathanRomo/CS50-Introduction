@@ -1,0 +1,28 @@
+basic structure of print
+print(*objects, sep='', end='\n', file=None, flush=False)
+
+types in python
+    bool
+    float
+    int
+    str
+
+no pointers in python
+
+
+    range
+    list
+    touple
+    dict
+    set
+
+Object Oriented Programming
+    Functionality to the values
+    Methods are functions inside a objects
+
+Exceptions
+    NULLS
+    Checking
+    Instead of relying on the inputs, it tries to excecute only when the conditions are valid
+
+Python doesnt have do while loops only for loops
