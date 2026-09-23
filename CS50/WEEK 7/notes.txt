@@ -1,0 +1,54 @@
+Flat file databases
+    Ex CSV files
+
+Relational databases
+    Ex SQL
+    C - Create
+    R - Read
+    U - Update
+    D - Delete
+
+AVG
+COUNT
+LOWER
+MAX
+MIN
+
+GROUP BY
+LIKE
+LIMIT
+ORDER BY
+WHERE
+
+sqlite datatypes
+BLOB
+INTEGER
+NUMERIC
+REAL
+TEXT
+
+CONSTRAINTS
+    NOT NULL
+    UNIQUE
+
+one to one realtionships
+one to many relationships
+many to many relatioships
+
+PRIMARY KEY 
+FOREIGN KEY
+
+JOINS
+
+INDEXES
+    B-Trees make the structure for the indexes
+
+SQL injection makes the input a SQL statement that can be dangerous for the data
+
+race conditions
+    when multiple people try to access the same db it can interrupt 
+    multiple statements happens at the same time
+
+    BEGIN TRANSACTION
+    COMMIT
+    ROLLBACK
