@@ -1,0 +1,83 @@
+IP - INTENET PROTOCOL
+IPv4 #.#.#.#
+IPv6 #.#.#.#.#.#
+
+HTTP
+HTTPS
+
+DNS
+DHCP
+
+curl -i webpage shows the package sent to the page
+
+200 OK
+301 MOVED PERMANENTLY
+302 NOT FOUND
+304 NOT MODIFIED
+307 TEMPORARY REDIRECT
+401 UNAUTHORIZED
+403 FORBIDDEN
+404 NOT FOUND
+418 IM A TEAPOT
+500 INTERNAL SERVER ERROR
+503 SERVICE UNAVAILABLE
+
+Incognito mode
+    Developer tools
+
+HTML
+    tags
+    atributes
+
+open tag and close tag
+
+PORTS: 5500
+
+regex
+
+.       any single character (except line terminators)
+*       zero or more times
++       one or more times
+?       0 or 1 times
+{n}     n ocurrences
+{n,m}   at least n ocurrences, at most m ocurrences
+[0123456789] any one of the enclosed characters
+[0-9]   any one of the range characters\
+\d      any digit
+\D      any character thats not a digit
+
+valide.w3.org
+
+CSS
+    properties
+    type selector
+    class selector
+    ID selector
+    attribute selector
+
+frameworks
+    same as library
+    bootstrap
+
+Javascript
+    conditionals
+    else
+        else if
+    variable
+    counter
+    loops
+    while loops
+
+    blur
+    change
+    click
+    drag
+    focus
+    keyup
+    load
+    mousedown
+    mouseover
+    mouseup
+    submit
+    touchmove
+    unload
