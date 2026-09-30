@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>autocomplete</title>
+    </head>
+    <body>
+        <input autocomplete="off" autofocus placeholder="Query" type="text">
+        <ul></ul>
+        <script src="large.js"></script>
+        // imports an example array
+        <script>
+            let input = document.querySelector('input');
+            input.addEventListener('keyup', function(event) {
+                let html = '';
+                if (input.value) {
+                    for (word of WORDS) {
+                        if (word.startsWith(input.value)) {
+                            html += `<li>${word}</li>`;
+                            // concatenation with a li tag
+                        }
+                    }
+                }
+                document.querySelector('ul').innerHTML = html;
+                // does the search
+            });
+        </script>
+    </body>
+</html>
