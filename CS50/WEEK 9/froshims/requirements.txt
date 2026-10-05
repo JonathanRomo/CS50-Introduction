@@ -1,0 +1,4 @@
+Flask
+Flask-Session
+SQLite3
+CS50

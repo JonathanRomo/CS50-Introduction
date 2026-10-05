@@ -1,0 +1,24 @@
+FLASK
+
+    FRAMEWORK FOR WEB APPS
+    pip install flask
+    flask run
+    usually we need an app.py and a requirements.txt
+    to run the template funcion we need to create a templates folder
+
+    request.args
+    are the things that you can read after an html route
+    we need to import it at the top of the file as request
+
+    JINJA 
+    template library
+
+    Model 
+    Controller
+    Views
+
+    Cookies are a feature of http
+    Cookies are a key pair value that provide the site with info
+
+    Session is a directory of key value pairs in the servers 
+    
