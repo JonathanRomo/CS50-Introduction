@@ -1,9 +1,23 @@
-from flask import Flask
+# Searches for shows using Ajax with JSON
 
-# turns the current file into a Flask application
+from cs50 import SQL
+from flask import Flask, jsonify, render_template, request
+
 app = Flask(__name__)
 
-#python decorator that tells Flask what URL should trigger our function
+db = SQL("sqlite:///shows.db")
+
+
 @app.route("/")
 def index():
-    return "Hello, World!"
+    return render_template("index.html")
+
+
+@app.route("/search")
+def search():
+    q = request.args.get("q")
+    if q:
+        shows = db.execute("SELECT * FROM shows WHERE title LIKE ? LIMIT 50", "%" + q + "%")
+    else:
+        shows = []
+    return jsonify(shows)
