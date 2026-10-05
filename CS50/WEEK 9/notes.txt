@@ -12,3 +12,13 @@ FLASK
 
     JINJA 
     template library
+
+    Model 
+    Controller
+    Views
+
+    Cookies are a feature of http
+    Cookies are a key pair value that provide the site with info
+
+    Session is a directory of key value pairs in the servers 
+    
